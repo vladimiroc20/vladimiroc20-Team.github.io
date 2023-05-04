@@ -1,9 +1,61 @@
-a{
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    clear: both;
+    display: table;
+}
+nav{
+    width: 95%;
+    display: inline-flex;
+    margin-left: 80px;
+}
+.logo h1{
     font-family: Bruno Ace SC;
     font-weight:600;
     font-size: 40px;
     font-style: oblique;
+    text-decoration: none;
 }
-a span{
+.logo h1 span{
     color: red;
+    margin-left: 0%;
+}
+
+li{
+    display: inline-flex;
+    padding: 17px;  
+}
+.men{
+    text-decoration:none ;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul{
+    display: inline-flex;
+    float: right;
+}
+.lista{
+    width: 80%;
+}
+.logo{
+    width: 20%;
+}
+.imge {
+    display: inline-flex;
+}
+.imge div{
+    padding-left: 50px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15%;
 }
