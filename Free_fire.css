@@ -1,0 +1,9 @@
+a{
+    font-family: Bruno Ace SC;
+    font-weight:600;
+    font-size: 40px;
+    font-style: oblique;
+}
+a span{
+    color: red;
+}
