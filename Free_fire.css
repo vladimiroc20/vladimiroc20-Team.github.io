@@ -16,7 +16,7 @@ nav{
 }
 .logo h1{
     font-family: Bruno Ace SC;
-    font-weight:600;
+    font-weight: bolder;
     font-size: 40px;
     font-style: oblique;
     text-decoration: none;
@@ -28,6 +28,15 @@ nav{
 li{
     display: inline-flex;
     padding: 22px;  
+}
+.inicio :hover{
+    color: red;
+}
+.datos :hover{
+    color: rgb(255, 174, 0);
+}
+.registros :hover{
+    color: rgb(252, 105, 37);
 }
 .men{
     text-decoration:none ;
@@ -52,12 +61,13 @@ ul{
 .imge {
     width: 100%;
     display: inline-block;
-    margin: 300px 0;
+    margin: 150px 0;
     text-align: center;
 }
 .imge div{
     display: inline-block;
     padding: 20px;
+    
 }
 img{
     width: 250px;
@@ -65,7 +75,6 @@ img{
     border: 5px solid black;
     border-radius: 15%;
     display: inline-block;
-    
 }
 
 @media only screen and(max-width:800px){
