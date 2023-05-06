@@ -5,10 +5,8 @@
     text-decoration: none;
 }
 body{
-    height: 100%;
     background:linear-gradient(rgba(255, 196, 0, 0.973), rgb(255, 161, 39),rgb(250, 118, 42));
 }
-
 header{
     width: 100%;
     clear: both;
@@ -32,15 +30,10 @@ img{
     border: 5px solid black;
     border-radius: 15%;
     display: inline-block;
+    box-shadow: 40px 30px 30px #3d2407;
 }
-.inicio :hover{
+nav ul li :hover{
     color: red;
-}
-.datos :hover{
-    color: rgb(255, 174, 0);
-}
-.registros :hover{
-    color: rgb(252, 105, 37);
 }
 .men{
     text-decoration:none ;
@@ -50,9 +43,11 @@ img{
     font-weight: bold;
 }
 nav {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    background-color: rgba(255, 196, 0, 0.973);
   }
 nav a{
     color:black;
@@ -62,79 +57,104 @@ nav a{
   }
 .logo h1{
     font-family: Bruno Ace SC;
-    font-weight: bolder;
-    font-size: 40px;
+    font-weight: bold;
+    font-size: 50px;
     font-style: oblique;
     text-decoration: none;
+    margin-top: 5px;
+    margin-left: 50px;
 }
 .logo h1 span{
-    color: red;
+  color:red;
 }
   
-  nav .menu__responsive-ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-  }
+nav .menu__responsive-ul {
+display: flex;
+flex-direction: column;
+list-style: none;
+margin: 0;
+padding: 0;
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+opacity: 0;
+visibility: hidden;
+ transition: all 0.3s ease;
+}
+nav ul li {
+  margin-top: 11px;
+}
+nav ul li a {
+  font-size: 19px;
+  font-weight: bold;
+  color: black;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+.menu li{
+  display: inline-block;
+  color: red;
+  margin-right: 30px;
+  margin-bottom: 5px;
+}
   
-  nav ul li {
-    margin: 0;
-  }
-  
-  nav ul li a {
-    font-size: 19px;
-    font-weight: bold;
+@media screen and (max-width: 1024px) {
+  .logo h1 span{
     color: black;
-    display: block;
-    padding: 10px;
-    text-align: center;
-  }
-  
-
-  .menu li{
-    display: inline-block;
-    color: red;
 }
-  
-  @media screen and (max-width: 1024px) {
-    .menu li{
-        display: none;
-    }
-    nav {
-      flex-direction: column;
-      align-items: center;
-    }
-    nav .logo {
-      margin-bottom: 10px;
-    }
-    
-    nav .menu__responsive-ul {
-      position: relative;
-      top: initial;
-      left: initial;
-      width: initial;
-      opacity: 1;
-      visibility: visible;
-      flex-direction: row;
-      margin-top: 20px;
-    }
-    
-    nav .menu__responsive-ul li {
-      margin: 0 10px;
-    }
-    .imge {
-        width: 100%;
-        display: inline-block;
-        margin: 200px 0;
-        text-align: center;
-    }
-  }
+.logo h1 {
+  color: red;
+}  
+.menu li{
+  display: none;
+}
+nav {
+  flex-direction: column;
+  align-items: center;
+}
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgba(255, 196, 0, 0.973);
+}
+nav .logo {
+  margin-bottom: 10px;
+}
+nav .menu__responsive-ul {
+  position: relative;
+  top: initial;
+  left: initial;
+  width: initial;
+  opacity: 1;
+  visibility: visible;
+  flex-direction: row;
+  margin-top: 20px;
+}  
+nav .menu__responsive-ul li {
+  margin: 0 10px;
+}
+.imge {
+  width: 100%;
+  display: inline-block;
+  margin: 200px 0;
+  text-align: center;
+}
+}
+.creadores{
+  display: inline-block;
+}
+.contacto li{
+  display: inline-block;
+  padding: 9px;
+  font-size: 30px;
+}
+.contacto li a{
+  color: black;
+}
+.contacto{
+  float: right;
+}
