@@ -105,6 +105,8 @@ nav ul li a {
     color: black;
 }
 .logo h1 {
+  margin: 0px;
+  width: 100%;
   color: red;
 }  
 .menu li{
