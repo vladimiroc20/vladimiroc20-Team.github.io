@@ -5,7 +5,8 @@
     text-decoration: none;
 }
 body{
-    background:linear-gradient(rgba(255, 196, 0, 0.973), rgb(255, 161, 39),rgb(250, 118, 42));
+  width: 100%;
+  background:linear-gradient(rgba(255, 196, 0, 0.973), rgb(255, 161, 39),rgb(250, 118, 42));
 }
 header{
     width: 100%;
@@ -16,13 +17,12 @@ header{
 .imge {
     width: 100%;
     display: inline-block;
-    margin: 250px 0;
+    margin: 138px 0;
     text-align: center;
 }
 .imge div{
     display: inline-block;
     padding: 20px;
-    
 }
 img{
     width: 350px;
@@ -47,7 +47,7 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(255, 196, 0, 0.973);
+    background-color: #EDBB99  ;
   }
 nav a{
     color:black;
@@ -121,7 +121,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  background-color: rgba(255, 196, 0, 0.973);
+  background-color: #EDBB99;
 }
 nav .logo {
   margin-bottom: 10px;
@@ -158,5 +158,12 @@ nav .menu__responsive-ul li {
   color: black;
 }
 .contacto{
-  float: right;
+  text-align: center;
+}
+footer{
+  width: 100%;
+  align-items: center;
+  height: 50px;
+  position: absolute;
+  background-color: #EDBB99  ;
 }
