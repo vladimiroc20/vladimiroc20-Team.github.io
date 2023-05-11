@@ -1,0 +1,170 @@
+/* Estilos generales */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+body {
+    width: 100%;
+    background:linear-gradient(rgba(255, 196, 0, 0.973), rgb(255, 161, 39),rgb(250, 118, 42));
+}
+  
+  /* Estilos del header */
+
+nav ul li :hover{
+    color: red;
+}
+  
+.men{
+    text-decoration:none ;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EDBB99  ;
+  }
+nav a{
+    color:black;
+}
+  nav .logo img {
+    max-height: 40px;
+  }
+.logo h1{
+    font-family: Bruno Ace SC;
+    font-weight: bold;
+    font-size: 50px;
+    font-style: oblique;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.logo h1 span{
+  color:red;
+}
+
+  
+  /* Estilos del menú responsive */
+
+  nav .menu__responsive-ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    }
+    nav ul li {
+      margin-top: 11px;
+    }
+    nav ul li a {
+      font-size: 19px;
+      font-weight: bold;
+      color: black;
+      display: block;
+      padding: 10px;
+      text-align: center;
+    }
+    .menu li{
+      display: inline-block;
+      color: red;
+      margin-right: 30px;
+      margin-bottom: 5px;
+    }
+     /* Estilos del contenedor de personajes */
+  .contenedor__personajes {
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .contenedor__personajes- {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+@media only screen and (max-width: 1024px) {
+.contenedor__personajes {
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+}
+    .logo h1 span{
+    color: black;
+}
+.logo h1 {
+    margin: 0px;
+    width: 100%;
+    color: red;
+}  
+.menu li{
+    display: none;
+}
+nav {
+    flex-direction: column;
+    align-items: center;
+} 
+nav {
+    position:static;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #EDBB99;
+}
+nav .logo {
+    margin-bottom: 10px;
+}
+nav .menu__responsive-ul {
+    position: relative;
+    top: initial;
+    left: initial;
+    width: initial;
+    opacity: 1;
+    visibility: visible;
+    flex-direction: row;
+    margin-top: 20px;
+} 
+nav .menu__responsive-ul li {
+    margin: 0 10px;
+}
+}
+.creadores{
+    display: inline-block;
+  }
+  .contacto li{
+    display: inline-block;
+    padding: 9px;
+    font-size: 30px;
+  }
+  .contacto li a{
+    color: black;
+  }
+  .contacto{
+    text-align: center;
+  }
+footer{
+    width: 100%;
+    align-items: center;
+    height: 50px;
+    position: absolute;
+    background-color: #EDBB99  ;
+}
+  
+ 
