@@ -1,22 +1,22 @@
-/* Estilos generales */
 * {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
     text-decoration: none;
   }
-  
+ 
 body {
-    width: 100%;
-    background:linear-gradient(rgba(255, 196, 0, 0.973), rgb(255, 161, 39),rgb(250, 118, 42));
+  background:#f3eae8;
+  height: 100vh;
 }
-  
+ 
   /* Estilos del header */
+ 
 
 nav ul li :hover{
     color: red;
 }
-  
+ 
 .men{
     text-decoration:none ;
     color: black;
@@ -50,7 +50,7 @@ nav a{
   color:red;
 }
 
-  
+ 
   /* Estilos del menú responsive */
 
   nav .menu__responsive-ul {
@@ -89,22 +89,32 @@ nav a{
     display:inline-flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 160px;
   }
-  
+ 
   .contenedor__personajes- {
     width: 100px;
     height: 100px;
     margin: 10px;
-    background-color: #eee;
+    background-color: black;
     border-radius: 5px;
   }
+  .contenedor__personajes-:hover {
+    width: 400px;
+    height: 150px;
+   
+  }
+
+
+
+
 @media only screen and (max-width: 1024px) {
 .contenedor__personajes {
     display:inline-flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: 120px;
+    margin-bottom: 60px;
 }
     .logo h1 span{
     color: black;
@@ -120,7 +130,7 @@ nav a{
 nav {
     flex-direction: column;
     align-items: center;
-} 
+}
 nav {
     position:static;
     display: flex;
@@ -140,7 +150,7 @@ nav .menu__responsive-ul {
     visibility: visible;
     flex-direction: row;
     margin-top: 20px;
-} 
+}
 nav .menu__responsive-ul li {
     margin: 0 10px;
 }
@@ -163,8 +173,7 @@ footer{
     width: 100%;
     align-items: center;
     height: 50px;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
     background-color: #EDBB99  ;
 }
-  
- 
