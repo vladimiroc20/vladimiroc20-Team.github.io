@@ -109,6 +109,19 @@ img:hover {
   width: 100px;
   height: 100px;
 }
+@media only screen and (min-width: 1300px){
+  .contenedor__personajes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+}
 @media only screen and (max-width: 1024px) {
 .contenedor__personajes {
     display:inline-flex;
