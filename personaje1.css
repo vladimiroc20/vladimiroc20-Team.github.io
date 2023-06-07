@@ -1,0 +1,44 @@
+section{
+    margin: 15px;
+}
+
+.contenedor__imhm{
+    width: 45%;
+    height: 600px;
+}
+.contenedor__imhm-imagen{
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    margin: 15px auto;
+}
+.contenedor__imhm-habilidades{
+    width: 400px;
+    height: 70px;
+    margin: auto;
+}
+.contenedor__imhm-habilidades div{
+    display: inline-block;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 30px;
+}
+.contenedor__imhm-mascota{
+    background-color: aqua;
+    width: 400px;
+    height: 70px;
+    margin: auto;
+    margin-top: 15px;
+}
+.contenedor__info{
+    background-color: blue;
+    width: 70%;
+    height: 250px;
+}
+.contenedor__video{
+    background-color: red;
+    width: 100%;
+    height: 250px;
+}
