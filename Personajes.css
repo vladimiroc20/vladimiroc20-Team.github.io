@@ -89,9 +89,9 @@ nav .logo img {
     display:inline-flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 100px;
+
   }
- 
+
   .contenedor__personajes- {
     width: 90px;
     height: 90px;
@@ -100,14 +100,38 @@ nav .logo img {
     background-color: black;
     border-radius: 5px;
   }
-  img{
-    width: 90px;
-    height: 90px;
-    border-radius: 5px;
+  h2{
+    display: inline-block;
+    font-family: Bruno Ace SC;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: oblique;
+    margin-top: 100px;
+  }
+  .titulo_pag{
+    text-align: center;
+  }
+img{
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
 }
 img:hover {
   width: 100px;
   height: 100px;
+}
+@media only screen and (min-width: 1300px){
+  .contenedor__personajes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 @media only screen and (max-width: 1024px) {
 .contenedor__personajes {
