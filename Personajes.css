@@ -3,7 +3,7 @@
     margin: 0%;
     box-sizing: border-box;
     text-decoration: none;
-  }
+}
  
 body {
   background:#f3eae8;
@@ -34,9 +34,9 @@ nav {
 nav a{
     color:black;
 }
-  nav .logo img {
-    max-height: 40px;
-  }
+nav .logo img {
+  max-height: 40px;
+}
 .logo h1{
     font-family: Bruno Ace SC;
     font-weight: bold;
@@ -108,19 +108,6 @@ nav a{
 img:hover {
   width: 100px;
   height: 100px;
-}
-@media only screen and (min-width: 1300px){
-  .contenedor__personajes {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
 }
 @media only screen and (max-width: 1024px) {
 .contenedor__personajes {
